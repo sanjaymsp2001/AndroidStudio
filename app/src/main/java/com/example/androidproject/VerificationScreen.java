@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class MainScreen extends Fragment {
+public class VerificationScreen extends Fragment {
 
     @Override
     public View onCreateView(
@@ -17,6 +17,6 @@ public class MainScreen extends Fragment {
             ViewGroup container,
             Bundle savedInstanceState
     ) {
-        return inflater.inflate(R.layout.fragment_main_screen, container, false);
+        return inflater.inflate(R.layout.fragment_verification_screen, container, false);
     }
 }
