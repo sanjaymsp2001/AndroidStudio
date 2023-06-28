@@ -23,7 +23,6 @@ public class LoginScreen extends Fragment {
             Bundle savedInstanceState
     ) {
         binding = FragmentLoginScreenBinding.inflate(getLayoutInflater());
-
         var host = NavHostFragment.findNavController(this);
         binding.button.setOnClickListener(v -> host.navigate(R.id.mainScreen));
         return binding.getRoot();
